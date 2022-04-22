@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" >
+    <title>PharmaShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <!-- header section starts -->
+    <header class="header">
+        <div class="header1">
+            <a href="#" class="logo"><i class="fas fa-first-aid"></i> pharmaShop</a>
+            <form action="" class="search-form">
+                <input type="text" placeholder="chercher ici..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header2">
+            <nav class="navbar">
+                <a href="#accueil">accueil</a>
+                <a href="#medicaments">medicaments</a>
+                <a href="#conseil">conseil</a>
+                <a href="#cosmetiques">cosmetiques</a>
+                <a href="#reviews">avis clients</a>
+                <a href="#footer">Contacts</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- bottom nav -->
+    <nav class="bottom-navbar">
+        <a href="#accueil" class="fas fa-home"></a>
+        <a href="#medicaments" class="fas fa-list"></a>
+        <a href="#conseil" class="fas fa-tags"></a>
+        <a href="#cosmetiques" class="fas fa-comments"></a>
+        <a href="#reviews" class="fas fa-user"></a>
+        <a href="#footer" class="fas fa-blog"></a>
+    </nav>
+    
+    <!-- login form -->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>connexion</h3>
+            <span>votre email</span>
+            <input type="email"  class="box" placeholder="entrer votre email">
+            <span>password</span>
+            <input type="password" class="box" placeholder="entrer votre password">
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">se souvenir de moi</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>mot de passe oublier ? <a href="#">clique ici</a></p>
+            <p>vous n'avez pas de compte ? <a href="#">créer un</a></p>
+        </form>
+    </div>
+    <!-- home section -->
+    <section class="home" id="accueil">
+        <div class="row">
+            <div class="content">
+                <h3>Bienvenue sur PharmaShop</h3>
+                <p>Votre tout 1er site d'achats de produits pharmacitiques enfin disponible au Mali au meilleurs prix sur le marché</p>
+                <!-- <a href="#" class="btn">shop now</a> -->
+            </div>
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="Phar/med3.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="Phar/med6.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="Phar/med5.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="Phar/cos3.jpg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="Phar/cos1.jpeg" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="Phar/cos7.jpg" alt=""></a>
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- icons section starts -->
+    <section class="icons-container">
+        <div class="icons">
+            <i class="fas fa-plane"></i>
+            <div class="content">
+                <h3>livraision gratuite</h3>
+                <p>commande de plus de 5000 fcfa</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>paiement sécuirisé</h3>
+                <p>100% paiement sécuirisé</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>des retours faciles</h3>
+                <p>3 jours de retours</p>
+            </div>
+        </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <div class="content">
+                    <h3> disponible 24/7</h3>
+                    <p>Apelez-nous à tout moment</p>
+                </div>
+            </div>
+    </section>
+    <!-- featured section starts -->
+    <section class="featured" id="medicaments">
+        <h1 class="heading"><span>medicaments</span></h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+                        <img src="Phar/med2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <!-- <a href="#" class="fas fa-search"></a> -->
+                        <a href="#" class="fas fa-heart"></a>
+                        <!-- <a href="#" class="fas fa-eye"></a> -->
+                    </div>
+                    <div class="image">
+
+                        <img src="Phar/med3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>medicaments</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <a href="#" class="btn">commander</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+     <!-- deal section starts -->
+     <section class="deal">
+        <div class="content">
+            <form action="">
+                <h3>demander conseil à votre pharmacien</h3>
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Nom" required>
+                        </div>
+                        <div class="field email">
+                            <input type="text" placeholder="Email" required>
+                        </div>
+                        
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Sujet" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea cols="30" rows="10" placeholder="votre message..." required></textarea>
+                    </div>
+                    <input type="submit" value="envoyer" class="btn">
+                </form>
+        </div>
+        <div class="image">
+            <h2>pharmacien <span> mamedi tandia</span></h2>
+            <img src="Phar/mame1.jpg" alt="">
+        </div>
+    </section>
+    <!-- newsletter -->
+    <!-- <section class="newsletter">
+        <form action="">
+            <h3>subscride fo lastest updates</h3>
+            <input type="email" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subscride" class="btn">
+        </form>
+    </section> -->
+    <!-- section arrival starts -->
+    <section class="arrivals" id="cosmetiques">
+        <h1 class="heading"><span>cosmetiques</span></h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos1.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos2.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                </div>
+        </div>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos1.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="Phar/cos2.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>cosmetiques</h3>
+                        <div class="price">2000 fcfa <span>5000 fcfa</span></div>
+                        <div class="starts">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="btn">commander</div>
+                    </div>
+                </a>   
+            </div>
+        </div>
+    </section>
+    <!-- reviews section starts -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading"><span>Avis clients</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-5.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-6.png" alt="">
+                    <h3>john doc</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus labore iste architecto mollitia. Sed id magnam nostrum repellendus asperiores.</p>
+                    <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blogs section starts -->
+    <!-- <section class="blogs" id="blogs">
+        <h1 class="heading"><span>our blogs</span></h1>
+        <div class="blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus labore explicabo tempore obcaecati ex alias provident laudantium quasi vero?</p>
+                        <a href="#" class="btn">red more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus labore explicabo tempore obcaecati ex alias provident laudantium quasi vero?</p>
+                        <a href="#" class="btn">red more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus labore explicabo tempore obcaecati ex alias provident laudantium quasi vero?</p>
+                        <a href="#" class="btn">red more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus labore explicabo tempore obcaecati ex alias provident laudantium quasi vero?</p>
+                        <a href="#" class="btn">red more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus labore explicabo tempore obcaecati ex alias provident laudantium quasi vero?</p>
+                        <a href="#" class="btn">red more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- footer section starts -->
+    <section class="footer" id="footer">
+        <!-- <h1 class="heading"><span>contact</span></h1> -->
+        <div class="box-container">
+            <!-- <div class="box">
+                <h3>our location</h3>
+                <a href=""><i class="fas fa-map-marker-alt"></i>india</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>usa</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>russia</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>france</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>japan</a>
+                <a href=""><i class="fas fa-map-marker-alt"></i>africa</a>
+            </div> -->
+            <!-- <div class="box">
+                <h3>quick links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>home</a>
+                <a href=""><i class="fas fa-arrow-right"></i>featured</a>
+                <a href=""><i class="fas fa-arrow-right"></i>arrivals</a>
+                <a href=""><i class="fas fa-arrow-right"></i>reviews</a>
+                <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+            </div> -->
+            <!-- <div class="box">
+                <h3>extra links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>account items</a>
+                <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+                <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>payement method</a>
+                <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+            </div> -->
+             <!--<div class="box">
+                <h3>Contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>00223 70-74-70-82</a>
+                <a href=""><i class="fas fa-phone"></i>00223 70-74-70-02</a>
+                <a href=""><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                <img src="image/worldmap.png" class="map" alt="">
+                </div> -->
+        </div>
+            <div class="share">
+                <h3> info Contacts </h3>
+                <a href="00223 70-74-70-82" class="fas fa-phone"></a>
+                <a href="00223 70-74-70-02" class="fas fa-phone"></a>
+                <a href="abc@gmail.com" class="fas fa-envelope"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+            <div class="credit">
+            <div>create by <span>SongDev</span> | all rights reserved!</div>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-linkedin"></a>
+        </div>
+    </section>
+    <!-- loader -->
+    <div class="loader-container">
+        <img src="Phar/loader.gif" alt="">
+    </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
